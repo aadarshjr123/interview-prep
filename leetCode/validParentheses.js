@@ -1,12 +1,12 @@
-function validParentheses(s) {
+function isValid(s) {
   const stack = [];
   const map = { ")": "(", "]": "[", "}": "{" };
 
-  for (let char in s) {
-    if ((char === "[") | (char === "{") | (char === "(")) {
+  for (let char of s) {
+    if (char === "(" || char === "[" || char === "{") {
       stack.push(char);
     } else {
-      if (stack.pop !== map[char]) {
+      if (stack.pop() !== map[char]) {
         return false;
       }
     }
