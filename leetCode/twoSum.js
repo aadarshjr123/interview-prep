@@ -12,3 +12,5 @@ function twoSum(nums, target) {
 
   return false;
 }
+
+//Time complexity - O(n)
