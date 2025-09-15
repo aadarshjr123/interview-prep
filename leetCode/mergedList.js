@@ -1,16 +1,9 @@
-class Node {
-  constructor(value) {
-    this.value = value;
-    this.next = null;
-  }
-}
-
 function mergeTwoLists(list1, list2) {
-  const dummy = new Node(-1);
+  const dummy = new ListNode();
   let mergedList = dummy;
 
-  while (list1 !== null && list2 !== null) {
-    if (list1.value <= list2.value) {
+  while (list1 && list2) {
+    if (list1.val < list2.val) {
       mergedList.next = list1;
       list1 = list1.next;
     } else {
