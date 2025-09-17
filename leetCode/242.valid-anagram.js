@@ -1,15 +1,3 @@
-/*
- * @lc app=leetcode id=242 lang=javascript
- *
- * [242] Valid Anagram
- */
-
-// @lc code=start
-/**
- * @param {string} s
- * @param {string} t
- * @return {boolean}
- */
 var isAnagram = function (s, t) {
   if (s.length !== t.length) return false;
   let freq = new Map();
@@ -27,4 +15,3 @@ var isAnagram = function (s, t) {
   for (const v of freq.values()) if (v !== 0) return false;
   return true;
 };
-// @lc code=end
