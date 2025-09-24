@@ -14,3 +14,12 @@ var mergeIntervals = function (intervals) {
 
   return merged;
 };
+
+console.log(
+  mergeIntervals([
+    [1, 3],
+    [8, 10],
+    [2, 6],
+    [15, 18],
+  ])
+);
