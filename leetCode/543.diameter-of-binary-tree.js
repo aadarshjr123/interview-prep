@@ -42,3 +42,10 @@ var diameterOfBinaryTree = function (root) {
 // return the max of left and right subtree depth + 1 (for the current node)
 // if the tree is balanced, space is O(logn)
 // if the tree is skewed, space is O(n)
+
+//examples
+// [1,2,3,4,5]
+//         1
+//       2   3
+//     4  5
+// return 4

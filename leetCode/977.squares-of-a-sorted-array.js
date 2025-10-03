@@ -16,3 +16,15 @@ function sortedSquares(nums) {
 
   return result;
 }
+
+// time: O(n)
+// space: O(n)
+// two pointers
+// compare the absolute values of the elements at the start and end of the array
+// place the larger square at the end of the result array
+// move the corresponding pointer inward
+// repeat until the pointers meet
+
+//example
+// [-4,-1,0,3,10] => [0,1,9,16,100]
+// [-7,-3,2,3,11] => [4,9,9,49,121]

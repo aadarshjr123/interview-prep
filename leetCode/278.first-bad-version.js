@@ -44,3 +44,19 @@ var solution = function (isBadVersion) {
 
 // time: O(logn)
 // space: O(1)
+
+// binary search
+// left starts from 0, right starts from n
+// while left < right
+// find mid
+// if mid is bad version, right = mid
+// else left = mid + 1
+// return left
+
+// examples
+// n = 5, bad = 4
+// versions: 1,2,3,4,5
+// isBadVersion(3) = false
+// isBadVersion(4) = true
+// isBadVersion(5) = true
+// first bad version is 4

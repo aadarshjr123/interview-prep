@@ -36,3 +36,30 @@ var hasCycle = function (head) {
 // time: O(n)
 // space: O(1)
 // floyd's cycle-finding algorithm
+// use two pointers, one moves one step at a time, the other moves two steps at a time
+// if there is a cycle, they will eventually meet
+// if there is no cycle, the fast pointer will reach the end of the list
+// if the list is empty or has only one node, return false
+// if the list has two nodes and a cycle, return true
+// if the list has two nodes and no cycle, return false
+// if the list has three nodes and a cycle, return true
+// if the list has three nodes and no cycle, return false
+
+// example:
+// 1 -> 2 -> 3 -> 4 -> 5
+//      ^              |
+//      |--------------|
+// p1  p2
+// 1 -> 2 -> 3 -> 4 -> 5
+//      ^              |
+//      |--------------|
+//          p1    p2
+// 1 -> 2 -> 3 -> 4 -> 5
+//      ^              |
+//      |--------------|
+//               p1    p2
+// 1 -> 2 -> 3 -> 4 -> 5
+//      ^              |
+//      |--------------|
+//                    p1,p2
+// return true

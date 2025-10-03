@@ -23,3 +23,12 @@ function moveZeroes(nums) {
   return nums;
 }
 // @lc code=end
+
+// time: O(n)
+// space: O(1)
+// two pointers
+// write pointer to track the position to write the next non-zero element
+// iterate through the array, when we find a non-zero element, we swap it with the element at the write pointer and increment the write pointer
+// this way, all non-zero elements are moved to the front and all zeros are moved to the end
+// [0,1,0,3,12] => [1,3,12,0,0]
+// [0] => [0]

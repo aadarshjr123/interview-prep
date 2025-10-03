@@ -62,3 +62,11 @@ var isPalindrome = function (head) {
 // if we reach the end of the list and all nodes are the same, we return true
 // the time complexity is O(n) because we traverse the list twice
 // the space complexity is O(n) because we use a stack to store the first half of the list
+
+//examples
+// head = [1,2,2,1] => true
+// head = [1,2] => false
+// head = [1,2,3,2,1] => true
+// head = [1,2,3,4,2,1] => false
+// head = [1] => true
+// head = [] => true
