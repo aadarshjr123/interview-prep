@@ -33,3 +33,4 @@ return -1 (not found)
 - Example: Find 7 in [1, 3, 5, 7, 9]
   - mid = 2 → arr[2] = 5 < 7 → search right half
   - mid = 3 → arr[3] = 7 = target → found
+
