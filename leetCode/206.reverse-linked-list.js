@@ -60,3 +60,6 @@ var reverseList = function (head) {
 // if the list has two nodes, swap them and return the new head
 // if the list has three or more nodes, reverse them iteratively as described above
 // this algorithm works for both even and odd length lists
+
+// what pattern problem ?
+// reverse linked list

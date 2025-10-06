@@ -14,3 +14,20 @@ var lengthOfLongestSubstring = function (s) {
 
   return maxLen;
 };
+
+// time: O(n) single pass
+// space: O(min(m,n)) m is the size of the charset, n is the size of the string
+// sliding window with two pointers
+// use a map to store the last seen index of each character
+// move the right pointer to expand the window
+// if the character at the right pointer has been seen and is within the current window, move the left pointer to the right of the last seen index of that character
+// update the last seen index of the character at the right pointer
+// calculate the current window length and update maxLen if it's larger
+
+// examples
+// "abcabcbb" => 3 ("abc")
+// "bbbbb" => 1 ("b")
+// "pwwkew" => 3 ("wke")
+
+// what pattern problem ?
+// sliding window, two pointers, hash map

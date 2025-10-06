@@ -9,6 +9,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
+
 var orangesRotting = function (grid) {
   if (!grid || grid.length === 0) return 0;
   const rows = grid.length;
@@ -78,3 +79,6 @@ var orangesRotting = function (grid) {
 // return -1
 // grid = [[0,2]]
 // return 0
+
+// what pattern problem ?
+// multi-source BFS

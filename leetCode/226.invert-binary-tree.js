@@ -47,3 +47,6 @@ var invertTree = function (root) {
 // return root
 // if the tree is balanced, space is O(logn)
 // if the tree is skewed, space is O(n)
+
+// what pattern problem ?
+// tree dfs

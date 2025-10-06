@@ -28,3 +28,6 @@ var isAnagram = function (s, t) {
 // examples
 // "anagram", "nagaram" => true
 // "rat", "car" => false
+
+// what pattern problem ?
+// frequency counter

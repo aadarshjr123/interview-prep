@@ -32,3 +32,6 @@ function moveZeroes(nums) {
 // this way, all non-zero elements are moved to the front and all zeros are moved to the end
 // [0,1,0,3,12] => [1,3,12,0,0]
 // [0] => [0]
+
+// what pattern problem ?
+// two pointers

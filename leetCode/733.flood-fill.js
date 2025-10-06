@@ -47,3 +47,6 @@ var floodFill = function (image, sr, sc, color) {
 // if the original color is the same as the new color, return the image as is
 // image = [[0,0,0],[0,0,0]], sr = 0, sc = 0, color = 0
 // return [[0,0,0],[0,0,0]]
+
+// what pattern problem ?
+// multi-source BFS

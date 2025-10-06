@@ -40,3 +40,6 @@ var findPeakElement = function (nums) {
 // if mid < mid+1 => right slope => move to right
 // else left slope => move to left
 // when left meets right, it's the peak element
+
+// what pattern problem ?
+// binary search

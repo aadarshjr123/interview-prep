@@ -95,3 +95,6 @@ var deserialize = function (data) {
 //      4 5
 // [1,2,3,"null","null",4,5]
 // [1,2,3,"null","null",4,5]
+
+// what pattern problem ?
+// tree bfs

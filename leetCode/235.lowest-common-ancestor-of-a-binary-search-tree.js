@@ -52,3 +52,6 @@ var lowestCommonAncestor = function (root, p, q) {
 // p = 2, q = 8 -> return 6
 // p = 2, q = 4 -> return 2
 // p = 3, q = 5 -> return 4
+
+// what pattern problem ?
+// binary search tree

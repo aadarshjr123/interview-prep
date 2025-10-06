@@ -53,3 +53,6 @@ var numIslands = function (grid) {
 //   ["0", "0", "0", "1", "1"],
 // ];
 // return 3
+
+// what pattern problem ?
+// multi-source BFS

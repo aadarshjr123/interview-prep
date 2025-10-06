@@ -52,3 +52,6 @@ var maxPathSum = function (root) {
 // Input: root = [2,-1]
 // Output: 2
 // Explanation: The optimal path is just the root node with a sum of 2.
+
+// what pattern problem ?
+// tree dfs

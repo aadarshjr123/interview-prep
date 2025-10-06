@@ -60,3 +60,6 @@ var solution = function (isBadVersion) {
 // isBadVersion(4) = true
 // isBadVersion(5) = true
 // first bad version is 4
+
+// what pattern problem ?
+// binary search

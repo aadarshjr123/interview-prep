@@ -43,3 +43,6 @@ var isSymmetric = function (root) {
 // and if the left subtree of t1 is a mirror of the right subtree of t2
 // if the tree is balanced, space is O(logn)
 // if the tree is skewed, space is O(n)
+
+// what pattern problem ?
+// tree dfs

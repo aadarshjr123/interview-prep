@@ -49,3 +49,7 @@ var diameterOfBinaryTree = function (root) {
 //       2   3
 //     4  5
 // return 4
+
+// what pattern problem ?
+// tree dfs
+// similar problems: 104, 101, 226

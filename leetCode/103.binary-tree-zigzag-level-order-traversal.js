@@ -69,3 +69,6 @@ var zigzagLevelOrder = function (root) {
 // []
 // [1]
 // [[1]]
+
+// what pattern problem ?
+// tree bfs

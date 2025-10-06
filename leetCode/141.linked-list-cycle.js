@@ -63,3 +63,6 @@ var hasCycle = function (head) {
 //      |--------------|
 //                    p1,p2
 // return true
+
+// what pattern problem ?
+// two pointers

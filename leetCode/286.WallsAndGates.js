@@ -8,6 +8,10 @@
  * @param {number[][]} rooms
  * @return {void} Do not return anything, modify rooms in-place instead.
  */
+
+// what pattern problem ?
+// multi-source BFS
+
 var wallsAndGates = function (rooms) {
   // rooms is a 2D array
   if (!rooms || rooms.length === 0) return 0;
@@ -68,3 +72,6 @@ var wallsAndGates = function (rooms) {
 //examples
 // rooms = [[2147483647,-1,0,2147483647],[2147483647,2147483647,2147483647,-1],[2147483647,-1,2147483647,-1],[0,-1,2147483647,2147483647]]
 // return [[3,-1,0,1],[2,2,1,-1],[1,-1,2,-1],[0,-1,3,4]]
+
+// what pattern problem ?
+// multi-source BFS

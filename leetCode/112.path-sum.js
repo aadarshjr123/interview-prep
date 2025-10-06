@@ -36,3 +36,6 @@ var hasPathSum = function (root, targetSum) {
 // recursively check the left and right subtree with the updated targetSum (targetSum - node.val)
 // if the tree is balanced, space is O(logn)
 // if the tree is skewed, space is O(n)
+
+// what pattern problem ?
+// tree dfs

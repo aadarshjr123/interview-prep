@@ -28,3 +28,22 @@ function sortColors(nums) {
   return nums;
 }
 // @lc code=end
+
+// time: O(n)
+// space: O(1)
+// three pointers
+// low pointer to track the position to place the next 0
+// mid pointer to traverse the array
+// high pointer to track the position to place the next 2
+// iterate through the array with mid pointer
+// if nums[mid] === 0, swap nums[low] and nums[mid], increment low and mid
+// if nums[mid] === 1, just increment mid
+// if nums[mid] === 2, swap nums[mid] and nums[high], decrement high
+
+// examples
+// [2,0,2,1,1,0] => [0,0,1,1,2,2]
+// [2,0,1] => [0,1,2]
+// [0] => [0]
+
+// what pattern problem ?
+// three pointers

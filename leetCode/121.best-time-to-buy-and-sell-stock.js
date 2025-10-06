@@ -27,3 +27,6 @@ var maxProfit = function (prices) {
 // [7,1,5,3,6,4] => 5 (buy at 1, sell at 6)
 // [7,6,4,3,1] => 0 (no profit possible)
 // [1,2] => 1 (buy at 1, sell at 2)
+
+// what pattern problem ?
+// array one pass

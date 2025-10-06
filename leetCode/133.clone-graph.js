@@ -66,3 +66,6 @@ var cloneGraph = function (node) {
 //   \   /
 //     3
 // We return the copy of the given node (node 1).
+
+// what pattern problem ?
+// graph dfs

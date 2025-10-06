@@ -26,3 +26,6 @@ var isPalindrome = function (s) {
 // "ana" => true
 // "racecar" => true
 // "car" => false
+
+// what pattern problem ?
+// two pointers

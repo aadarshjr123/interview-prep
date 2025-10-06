@@ -70,3 +70,6 @@ var isPalindrome = function (head) {
 // head = [1,2,3,4,2,1] => false
 // head = [1] => true
 // head = [] => true
+
+// what pattern problem ?
+// reverse linked list

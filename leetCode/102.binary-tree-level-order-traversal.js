@@ -56,3 +56,6 @@ var levelOrder = function (root) {
 // after processing all nodes at this level, add the current level array to the result array
 // return the result array after processing all levels
 // in the worst case, the queue can hold all nodes at the last level, which is O(n/2) = O(n)
+
+// what pattern problem ?
+// tree bfs

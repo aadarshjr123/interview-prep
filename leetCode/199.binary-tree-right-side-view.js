@@ -48,3 +48,15 @@ var rightSideView = function (root) {
 // enqueue its left and right children if they exist
 // return the result array after processing all levels
 // in the worst case, the queue can hold all nodes at the last level, which is O(n)
+
+// examples
+// [1,2,3,null,5,null,4]
+//     1
+//   2   3
+//    5     4
+// return [1,3,4]
+// [1,null,3] => [1,3]
+// [] => []
+
+// what pattern problem ?
+// tree bfs

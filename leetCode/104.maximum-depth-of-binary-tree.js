@@ -36,3 +36,6 @@ var maxDepth = function (root) {
 // return the max of left and right subtree + 1 (for the root)
 // if the tree is balanced, space is O(logn)
 // if the tree is skewed, space is O(n)
+
+// what pattern problem ?
+// tree dfs

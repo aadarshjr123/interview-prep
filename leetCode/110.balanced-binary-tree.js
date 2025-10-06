@@ -63,3 +63,6 @@ var isBalanced = function (root) {
 //    3       3
 //  4         4
 // return false
+
+// what pattern problem ?
+// tree dfs
