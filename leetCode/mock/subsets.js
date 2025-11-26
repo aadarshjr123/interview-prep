@@ -9,23 +9,21 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var subsets = function(nums) {
-  
-    let result = [];
-    function dfs(i,subset) {
-        if(i === nums.length) {
-            result.push([...subset])
-            return
-        }
-
-        dfs(i+1,subset)
-        subset.push(nums[i])
-        dfs(i+1,subset)
-        subset.pop()
+var subsets = function (nums) {
+  let result = [];
+  function dfs(i, subset) {
+    if (i === nums.length) {
+      result.push([...subset]);
+      return;
     }
 
-    dfs(0,[])
-    return result
+    dfs(i + 1, subset);
+    subset.push(nums[i]);
+    dfs(i + 1, subset);
+    subset.pop();
+  }
+
+  dfs(0, []);
+  return result;
 };
 // @lc code=end
-
